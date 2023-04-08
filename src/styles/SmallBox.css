@@ -1,0 +1,27 @@
+.small-box{
+    margin-top:30px;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .small-box>div>svg{
+    padding: 1.5rem 0rem 1rem 0rem;
+  }
+
+  .small-box>div>h5{
+    margin:0;
+  }
+
+  .light .small-box{
+    background-color: #6a80ab;
+  }
+
+  .dark .small-box{
+    background-color: #282c34;
+  }

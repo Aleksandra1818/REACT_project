@@ -1,0 +1,41 @@
+.unicorn>svg{
+    padding: 1.5rem 0rem 0rem 1.5rem;
+    margin-bottom: 0em;
+  }
+
+  .unicorn{
+    display:flex;
+    align-items: flex-end;
+  }
+  
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-left: 2em;
+    margin-right: 3em;
+  }
+
+  .congrats-box{
+    margin-top: 30px;
+    margin-left: 20px;
+    /*margin-right: 10px;
+    */width: 55%;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;;
+  }
+
+  .light .congrats-box{
+    background-color: #6a80ab;
+  }
+
+  .dark .congrats-box{
+    background-color: #282c34;
+  }
+
+  h5{
+    text-align: center;
+    margin-top: revert;
+  }

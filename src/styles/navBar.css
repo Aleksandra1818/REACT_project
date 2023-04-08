@@ -1,0 +1,46 @@
+.nav-box{
+    padding-bottom: 180px;
+    display: flex;
+    flex-direction: column;
+    /*width: 15vw;*/
+    flex-wrap: wrap;
+  }
+
+  .light .nav-box{
+    background-color: #6a80ab;
+  }
+
+  .dark .nav-box{
+    background-color: #282c34;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: auto;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size:larger;
+    flex-wrap: wrap;
+  }
+  
+  li{
+    padding:5px;
+    font-size: 15px;
+  }
+  
+  .menu-separator{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size:17px;
+  }
+  
+  .light .menu-separator{
+    color: darkblue;
+  }
+
+  .dark .menu-separator{
+    color: gray;
+  }
